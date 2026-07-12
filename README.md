@@ -2,8 +2,7 @@
 # SignalsCart
 ## Small cart task for practicing on Signals
 
-![Uploading image.png…]()
-
+<img width="645" height="758" alt="image" src="https://github.com/user-attachments/assets/b943b2b1-9dad-4864-a330-d463a14c7813" />
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
 
