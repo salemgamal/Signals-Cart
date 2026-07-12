@@ -1,0 +1,11 @@
+<div class="my-5">
+  <h2 class="text-2xl font-bold text-gray-800">Products</h2>
+  @for (product of products; track product.id) {
+    <div class="flex items-center justify-between my-2 p-2 bg-gray-50 border-b-2 border-gray-300 rounded-l">
+      <span class="text-lg font-medium text-gray-800">{{ product.name }} — <span class="font-bold">${{ product.price }}</span></span>
+      <button (click)="addProductToCart(product)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hover: cursor-pointer">
+        Add to cart
+      </button>
+    </div>
+  }
+</div>
